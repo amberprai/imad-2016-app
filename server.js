@@ -33,7 +33,7 @@ var htmltemplate=`
         <html>
          <head>
             <title>
-                 S{title}
+                ${title}
             </title>
             <link href="/ui/style.css" rel="stylesheet"/>
          </head>
@@ -44,13 +44,13 @@ var htmltemplate=`
              </div>
              <hr/>
              <h1>
-                   S{heading}
+                   ${heading}
              </h1>
              <div>
-                  S{date}
+                 ${date}
                   </div>
             <div>
-            S{content}
+            ${content}
             </div>
             </div>
            </body>         
