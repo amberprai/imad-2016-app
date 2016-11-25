@@ -10,7 +10,7 @@ button.onclick=function(){
             if(request.status===200){
          var counter =request.responseText;
     var span=document.getElementById('count');
-    span.innerhtml=counter.toString();
+    span.innerHTML=counter.toString();
             }
         }
 };
@@ -25,9 +25,9 @@ submit.onclick=function()
 {
     var names=['name1','name2','name3','name4'];
     var list='';
-    for(var i=0;i<names.lenght;i++)
+    for(var i=0;i<names.length;i++)
      list+='<li>' +names[i]+'</li>';
 };
 var ul=document.getElementById('namelist');
-ul.innerHTML=list;
+ul.innerHTML = list;
 };
